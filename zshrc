@@ -66,6 +66,7 @@ alias browse='pacman -Ss '
 alias install='sudo pacman -S '
 alias upgrade='sudo pacman -Sy --needed archlinux-keyring && sudo pacman -Su'
 alias remove='sudo pacman -R'
+alias remove_deps='sudo pacman -Rs'
 
 ## Miscellaneous Aliases
 alias ll='ls -a'
